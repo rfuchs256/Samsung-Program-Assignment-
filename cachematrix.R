@@ -32,10 +32,8 @@ cacheSolve <- function(x=matrix(), ...) {
         m<-x$getinv()
         ## Test to see if matrix exists and equals the set matrix if so get it and return
         if(!is.null(m)){
-                ## if(identical(x$setinv(), x$getinv())){
                 message("getting cached data")
                 return(m)
-                ## }
         }
         ## Otherwise get the matrix and calculate the inverse
         data<-x$get()
