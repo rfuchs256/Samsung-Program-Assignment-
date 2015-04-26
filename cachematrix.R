@@ -8,6 +8,7 @@
 ## if it does not exist.  If it exists it will get it value.
  
 ## This function creates a special vector that can cache the inverse
+## of a matrix
 
 makeCacheMatrix <- function(x = matrix()) { 
            m<-NULL
@@ -24,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
                    
 } 
 
-## This function will solve the inverse
+## This function will solve the inverse of a matrix
 
  
 cacheSolve <- function(x=matrix(), ...) { 
