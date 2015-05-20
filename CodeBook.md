@@ -45,4 +45,5 @@
   7. Creating a raw dataset called "tidy_data" with 5 variables (File, Activity, Name, Mean, STD)
   8. Aggregated the Mean and STF based on the Name and Activity
   9. Wrote the file to "tidy_data2"
+  10. Then wrote it to "tidy_data_set.txt"
    
