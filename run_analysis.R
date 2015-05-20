@@ -55,5 +55,7 @@ for (i in 1:nrow(column.file)){
 ## Creating tidy set
 message("Creating tidy data set")
 tidy_data2<-aggregate(tidy_data[,4:5],list(tidy_data$Activity,tidy_data$Name),data=tidy_data,FUN=mean)
+setwd("~/Work/R Programming")
+names(tidy_data2)<c("Activity", "Name","Mean","STD")
 ## tidy_data2
-write.table(tidy_data2,"tidy_data_set.txt",row.name=FALSE)
+write.table(tidy_data2,"tidy_data_set.txt",row.name=FALSE,col.name=FALSE)
