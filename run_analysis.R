@@ -58,4 +58,4 @@ tidy_data2<-aggregate(tidy_data[,4:5],list(tidy_data$Activity,tidy_data$Name),da
 setwd("~/Work/R Programming")
 names(tidy_data2)<-c("Activity", "Name","Mean","STD")
 ## tidy_data2
-write.table(tidy_data2,"tidy_data_set.txt",row.name=FALSE,col.name=FALSE)
+write.table(tidy_data2,"tidy_data_set.txt",row.name=FALSE)
