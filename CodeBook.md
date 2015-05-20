@@ -34,6 +34,10 @@
   5 |Standing
   6 |Laying
   
+##**Output File##
+
+The output file is called tidy_data_set.txt and has four variables (Activity, Name, Mean, STD).  The Activity and Name variables are character and the Mean and STD variables are intereger.  
+  
 ##**Program Flow and Tasks to Clean Data**
 
   1. Downloaded the data files and label files
