@@ -21,7 +21,7 @@
     y_test.txt |~Samsung/UCI HAR Dataset/test |The activity codes 1-6 
     X_train.txt |~Samsung/UCI HAR Dataset/train |The data for the train dataset
     y_train.txt |~Samsung/UCI HAR Dataset/train |The activity codes 1-6
-    Column.csv |~Samsung/UCI HAR Dataset |This file contains the variable names and the column numbers to extract the mean and std.  This file was created in excel.
+    Column.csv |~Samsung/UCI HAR Dataset |This file contains the variable names and the column numbers to extract the mean and std.  This file was created in excel and then loaded into R dataframe.
     
   Description of the Activity_labels.txt
   
@@ -36,7 +36,7 @@
   
 ##**Output File##
 
-The output file is called tidy_data_set.txt and has four variables (Activity, Name, Mean, STD).  The Activity and Name variables are character and the Mean and STD variables are intereger.  
+The output file is called tidy_data_set.txt and has four variables (Activity, Name, Mean, STD).  The Activity and Name variables are character and the Mean and STD variables are intereger.  The Mean and STD variables extracted from the "X_test.txt" and the X_train.txt datasets.  The Activity variable is taken from the "Activity_labels.txt" file.  The activity number is in the "y_test.txt" and "y_train.txt" datasets.  The numbers are converted to the namesand then combined into each arw dataset.  The Name variable is provided from the "Column.csv" dataset.
   
 ##**Program Flow and Tasks to Clean Data**
 
