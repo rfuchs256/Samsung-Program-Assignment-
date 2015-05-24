@@ -1,6 +1,6 @@
 #**Description of Getting and Cleaning the Samsung Data**
 
-##** The Data**
+##**The Data**
 
   The data was obtaineed from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  The data is down loaded into a zipped data set.  Once downloaded a directory is created called "Samsung" and the files are then unzipped into this directory.  Once unzipped the the directory structure is as follpws:
   
