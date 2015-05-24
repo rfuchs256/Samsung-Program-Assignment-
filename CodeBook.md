@@ -1,6 +1,6 @@
 #**Description of Getting and Cleaning the Samsung Data**
 
-##** The Data##
+##** The Data**
 
   The data was obtaineed from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  The data is down loaded into a zipped data set.  Once downloaded a directory is created called "Samsung" and the files are then unzipped into this directory.  Once unzipped the the directory structure is as follpws:
   
@@ -34,7 +34,7 @@
   5 |Standing
   6 |Laying
   
-##**Output File##
+##**Output File**
 
 The output file is called tidy_data_set.txt and has four variables (Activity, Name, Mean, STD).  The Activity and Name variables are character and the Mean and STD variables are intereger.  The Mean and STD variables extracted from the "X_test.txt" and the X_train.txt datasets.  The Activity variable is taken from the "Activity_labels.txt" file.  The activity number is in the "y_test.txt" and "y_train.txt" datasets.  The numbers are converted to the namesand then combined into each arw dataset.  The Name variable is provided from the "Column.csv" dataset.
   
